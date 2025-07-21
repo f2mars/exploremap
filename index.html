@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="technical-controls">
+      <p id="cellSizeLabel">
+        Cell size: <span id="cellSizeLabelValue">40</span>px
+      </p>
+      <input
+        type="range"
+        name="cellSizeInput"
+        id="cellSizeInput"
+        value="40"
+        min="30"
+        max="60"
+        step="5"
+      />
+    </div>
+    <div class="game-controls-wrapper">
+      <button class="toggle-window">Hide window</button>
+      <div class="game-controls">
+        <p id="mapSizeLabel">
+          Map size: <span id="mapSizeLabelValue">25</span> cells
+        </p>
+        <input
+          type="range"
+          name="mapSizeInput"
+          id="mapSizeInput"
+          value="25"
+          min="21"
+          max="35"
+          step="2"
+        />
+        <button id="mapCreateButton">Create map</button>
+      </div>
+    </div>
+    <div class="map-wrapper">
+      <div class="hero"></div>
+      <div class="shadow"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
