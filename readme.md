@@ -1,6 +1,11 @@
 # 2D Map Explorer
 
-## How to deal with that
+## How to run
 
-1. Create Map (use the special button)
-2. Explore the map with arrow keys
+1. Compile the .scss files into .css files in the same folder.
+2. Open index.html in your browser.
+
+## How to use
+
+1. Create a map by clicking the “Create Map” button.
+2. Navigate the map using the arrow keys.
